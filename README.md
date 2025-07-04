@@ -1,105 +1,101 @@
+# chaika-stop-smoking-landing-page-2025-07-04-53tmpj
 
-# [Next.js Enterprise Boilerplate](https://blazity.com/open-source/nextjs-enterprise-boilerplate) 
+A modern landing page for Chaika Stop Smoking, an Amsterdam coffee shop, featuring business information, menu highlights, location details, and contact information
 
-A production-ready template for building enterprise applications with Next.js. This boilerplate provides a solid foundation with carefully selected technologies and ready-to-go infrastructure to help you develop high-quality applications efficiently.
+## 🚀 Live Demo
 
-## Motivation
+**[View Live Application](https://chaika-stop-smoking-landing-page-2025-07-04-53tmpj.vercel.app)**
 
-While most Next.js boilerplates focus on individual developer needs with excessive complexity, **next-enterprise** prioritizes strategic simplicity for enterprise teams. It offers a streamlined foundation with high-impact features that maximize developer productivity and accelerate time-to-market for business-critical applications.
+## 📋 Project Information
 
-<a href="https://blazity.com/">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/assets/blazity-logo-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="/assets/blazity-logo-light.svg">
-  <img alt="Logo" align="right" height="80" src="/assets/blazity-logo-light.svg">
-</picture>
-</a>
+- **Created**: 7/4/2025
+- **Status**: deployed
+- **GitHub**: [https://github.com/mkisilenko/chaika-stop-smoking-landing-page-2025-07-04-53tmpj](https://github.com/mkisilenko/chaika-stop-smoking-landing-page-2025-07-04-53tmpj)
+- **Deployment**: [https://chaika-stop-smoking-landing-page-2025-07-04-53tmpj.vercel.app](https://chaika-stop-smoking-landing-page-2025-07-04-53tmpj.vercel.app)
 
-> [!NOTE]
-> **Blazity** is a group of Next.js architects. We help organizations architect, optimize, and deploy high-performance Next.js applications at scale. Contact us at [contact@blazity.com](https://blazity.com) if you’d like to talk about your project.
+## ✨ Features
 
+- Hero section with coffee shop branding
+- About section with shop story
+- Menu highlights showcase
+- Location and contact information
+- Opening hours display
+- Image gallery
+- Contact form
+- Responsive mobile design
 
+## 🛠️ Tech Stack
 
-## Documentation
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-There is a separate documentation that explains its functionality, highlights core business values and technical decisions, provides guidelines for future development, and includes architectural diagrams.
+## 🏗️ Development
 
-We encourage you to [visit our docs (docs.blazity.com)](https://docs.blazity.com) to learn more
+This project was generated using **Vibe Coding SaaS** - an AI-powered platform that creates, deploys, and maintains full-stack applications.
 
-## Integrated features
+### Getting Started
 
-### Boilerplate
-With this template you will get all the boilerplate features included:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mkisilenko/chaika-stop-smoking-landing-page-2025-07-04-53tmpj
+   cd chaika-stop-smoking-landing-page-2025-07-04-53tmpj
+   ```
 
-* [Next.js 15](https://nextjs.org/) - Performance-optimized configuration using App Directory
-* [Tailwind CSS v4](https://tailwindcss.com/) - Utility-first CSS framework for efficient UI development
-* [ESlint 9](https://eslint.org/) and [Prettier](https://prettier.io/) - Code consistency and error prevention
-* [Corepack](https://github.com/nodejs/corepack) & [pnpm](https://pnpm.io/) as the package manager - For project management without compromises 
-* [Strict TypeScript](https://www.typescriptlang.org/) - Enhanced type safety with carefully crafted config and [ts-reset](https://github.com/total-typescript/ts-reset) library
-* [GitHub Actions](https://github.com/features/actions) - Pre-configured workflows including bundle size and performance tracking
-* Perfect Lighthouse score - Optimized performance metrics
-* [Bundle analyzer](https://www.npmjs.com/package/@next/bundle-analyzer) - Monitor and manage bundle size during development
-* Testing suite - [Jest](https://jestjs.io/), [React Testing Library](https://testing-library.com/react), and [Playwright](https://playwright.dev/) for comprehensive testing
-* [Storybook](https://storybook.js.org/) - Component development and documentation
-* Advanced testing - Smoke and acceptance testing capabilities
-* [Conventional commits](https://www.conventionalcommits.org/) - Standardized commit history management
-* [Observability](https://opentelemetry.io/) - Open Telemetry integration
-* [Absolute imports](https://nextjs.org/docs/advanced-features/module-path-aliases) - Simplified import structure
-* [Health checks](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/) - Kubernetes-compatible monitoring
-* [Radix UI](https://www.radix-ui.com/) - Headless components for customization
-* [CVA](http://cva.style/) (Class Variance Authority) - Consistent design system creation
-* [Renovate BOT](https://www.whitesourcesoftware.com/free-developer-tools/renovate) - Automated dependency and security updates
-* [Patch-package](https://www.npmjs.com/package/patch-package) - External dependency fixes without compromises
-* Component relationship tools - Graph for managing coupling and cohesion
-* [Semantic Release](https://github.com/semantic-release/semantic-release) - Automated changelog generation
-* [T3 Env](https://env.t3.gg/) - Streamlined environment variable management
+2. Install dependencies:
+   ```bash
+   npm install --legacy-peer-deps
+   ```
 
-### Infrastructure & deployments
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-#### Vercel
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Easily deploy your Next.js app with [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=github&utm_campaign=next-enterprise) by clicking the button below:
+### Build for Production
 
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise)
+```bash
+npm run build
+npm start
+```
 
-#### Custom cloud infrastructure
+## 📝 Project Structure
 
-**next-enterprise** offers dedicated infrastructure as code (IaC) solutions built with Terraform, designed specifically for deploying Next.js applications based on our extensive experience working with enterprise clients.
+```
+chaika-stop-smoking-landing-page-2025-07-04-53tmpj/
+├── app/                 # Next.js App Router pages
+├── components/          # Reusable React components
+├── public/             # Static assets
+├── styles/             # Global styles
+└── package.json        # Dependencies and scripts
+```
 
-Learn more in our [documentation (docs.blazity.com)][docs] how to quickstart with the deployments using simple CLI.
+## 🔧 Configuration
 
-#### Available cloud providers and theirs features:
+- **Framework**: Next.js 15
+- **React**: Version 19
+- **Styling**: Tailwind CSS
+- **TypeScript**: Fully typed
+- **Deployment**: Vercel
 
-* **AWS (Amazon Web Services)**
-  * Automated provisioning of AWS infrastructure
-  * Scalable & secure setup using:
-     * VPC - Isolated network infrastructure
-     * Elastic Container Service (ECS) - Container orchestration
-     * Elastic Container Registry (ECR) - Container image storage
-     * Application Load Balancer - Traffic distribution
-     * S3 + CloudFront - Static asset delivery and caching
-     * AWS WAF - Web Application Firewall protection
-     * Redis Cluster - Caching
-  * CI/CD ready - Continuous integration and deployment pipeline
+## 📱 Responsive Design
 
-*... more coming soon*
+This application is fully responsive and optimized for:
+- Desktop computers
+- Tablets
+- Mobile phones
 
-### Team & maintenance
+## 🤝 Contributing
 
-**next-enterprise** is backed and maintained by [Blazity](https://blazity.com), providing up to date security features and integrated feature updates.
+This project was generated by AI and can be modified through the Vibe Coding SaaS platform for intelligent iterations and improvements.
 
-#### Active maintainers
+## 📄 License
 
-- Igor Klepacki ([neg4n](https://github.com/neg4n)) - Open Source Software Developer
-- Tomasz Czechowski ([tomaszczechowski](https://github.com/tomaszczechowski)) - Solutions Architect & DevOps
-- Jakub Jabłoński ([jjablonski-it](https://github.com/jjablonski-it)) - Head of Integrations
+This project is licensed under the MIT License.
 
-#### All-time contributors
-[bmstefanski](https://github.com/bmstefanski)
+---
 
-## License
-
-MIT
-
-
-[docs]: https://docs.blazity.com/next-enterprise/deployments/enterprise-cli
+*Generated with ❤️ by [Vibe Coding SaaS](https://github.com/mkisilenko/mk-ai-apps-builder)*
